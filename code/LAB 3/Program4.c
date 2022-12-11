@@ -10,6 +10,6 @@ int main(){
     float cm,inch,ft;
     cm=inp/10;
     inch=cm/2.5;
-    ft=inch/12;
+    ft=inch/12.0;
     printf("CM=%f\tINCH=%f\tFT=%f",cm,inch,ft);
 }
