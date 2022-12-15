@@ -11,11 +11,11 @@ int main(){
     printf("Enter score in quiz (0-10): ");
     scanf("%d",&score);
     if(score>10){printf("error");}
-    else if(score>=9 ){grade="A";}
-    else if(score==8||score==7){grade="B";}
-    else if(score==5||score==6){grade="C";}
-    else if(score==4||score==3){grade="D";}
-    else{grade="F";}
-    printf("Grade attained id %c",grade);
+    else if(score>=9 ){grade='A';}
+    else if(score==8||score==7){grade='B';}
+    else if(score==5||score==6){grade='C';}
+    else if(score==4||score==3){grade='D';}
+    else{grade='F';}
+    printf("Grade attained is %c",grade);
 
 }

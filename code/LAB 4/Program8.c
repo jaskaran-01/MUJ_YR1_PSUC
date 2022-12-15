@@ -5,7 +5,7 @@ int main(){
     char charactergiven;
     printf("Enter a character to check: ");
     scanf("%c",&charactergiven);
-    int isvowel=charactergiven=="a"||charactergiven=="e"||charactergiven=="i"||charactergiven=="o"||charactergiven=="u"||charactergiven=="E"||charactergiven=="I"||charactergiven=="A"||charactergiven=="O"||charactergiven=="U";
+    int isvowel=charactergiven=='a'||charactergiven=='e'||charactergiven=='i'||charactergiven=='o'||charactergiven=='u'||charactergiven=='E'||charactergiven=='I'||charactergiven=='A'||charactergiven=='O'||charactergiven=='U';
     if(isdigit(charactergiven)){printf("Given char %c is a digit",charactergiven);}
     else{
         if(isvowel){printf("Given char %c is a vowel",charactergiven);}

@@ -6,8 +6,9 @@ January month.
 void main(){
     int month,year,days=0;
     printf("Enter date of month (MM/YYYY): ");
+    scanf("%d/%d",&month,&year);
     if(month>=1){days+=31;}
-    if(month>=2){year%4==0?days+=29:days+=28;}
+    if(month>=2){(year%4==0)? days+=29:printf("it is a leap year")  ;}
     if(month>=3){days+=31;}
     if(month>=4){days+=30;}
     if(month>=5){days+=31;}
@@ -18,5 +19,6 @@ void main(){
     if(month>=10){days+=31;}
     if(month>=11){days+=30;}
     if(month>=12){days+=31;}
-    printf("total number of days from 01/%d to %d/%d is %d",year,month,year,days);
+    if(month>12){printf("\n%d Is not a valid month",month);}
+    else{printf("\ntotal number of days from 01/%d to %d/%d is %d",year,month,year,days);}
 }
