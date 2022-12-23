@@ -11,17 +11,17 @@ void main(){
     switch(choice){
         case 1 :printf("\n\nMonday");
                 break;
-        case 1 :printf("\n\nTuesday");
+        case 2 :printf("\n\nTuesday");
                 break;
-        case 1 :printf("\n\nWednesday");
+        case 3 :printf("\n\nWednesday");
                 break;
-        case 1 :printf("\n\nThursday");
+        case 4 :printf("\n\nThursday");
                 break;
-        case 1 :printf("\n\nFriday");
+        case 5 :printf("\n\nFriday");
                 break;
-        case 1 :printf("\n\nSaturay");
+        case 6 :printf("\n\nSaturay");
                 break;
-        case 1 :printf("\n\nSunday");
+        case 7 :printf("\n\nSunday");
                 break;
         default:printf("\n\nWrong choice");
                 break;

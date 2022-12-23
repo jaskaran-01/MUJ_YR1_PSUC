@@ -28,6 +28,7 @@ void main(){
                 break;
         default:printf("wrong unit amnt");
                 break;
-        
+            
     }
+    printf("Bill due: %f",amnt);    
 }

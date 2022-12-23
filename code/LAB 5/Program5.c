@@ -17,9 +17,9 @@ void main(){
                     case 1:printf("Bill due: %f",(200+((calls-100)*0.60)));
                            break;
                     case 0:switch(calls>150 && (calls-150)<=50){
-                                case 1:printf("bill due: %f",(230+((calls-150)0.50)));
+                                case 1:printf("bill due: %f",(230+((calls-150)*0.50)));
                                        break;
-                                case 0:printf("bill due: %f",(255+((calls-200)0.40)));
+                                case 0:printf("bill due: %f",(255+((calls-200)*0.40)));
                                         break;
                     }
         }
